@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "Shkolo Extension",
+    "version": "1.0",
+  
+    "description": "Прави школо мега супер-дупер готин-мотин",
+  
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.shkolo.bg/*"],
+        "js": ["shk.js"],
+        "css": ["style.css"]
+      }
+    ]
+}
+  
