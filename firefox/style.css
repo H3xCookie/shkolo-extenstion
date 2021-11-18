@@ -292,6 +292,15 @@ text {
 html body.page-header-fixed.page-quick-sidebar-over-content div.page-container div.page-content-wrapper div.page-content div.row div.col-md-12 div.portlet.clearfix.messenger-index div.inbox.margin-top-10 div.row div.user-folder-threads.col-md-10.col-sm-12.col-xs-12.pull-right div.message-index-body div.threads div.messageThread.clearfix div.col-md-4.col-sm-6.col-sm-6-992-1440.message-short-body a:hover {
     background: transparent !important;
 }
+.current-attachment:hover {
+    color: white;
+}
+.current-attachment:focus {
+    color: #8ba2c0;
+}
+.bg-white {
+    background-color: #363636 !important;
+}
 /* ВСИЧКИ МАТЕРИАЛИ */
 .text {
     color: #fff !important;
@@ -318,4 +327,13 @@ html body.page-header-fixed.page-quick-sidebar-over-content div.page-container d
 }
 .auth-tabs.nav.nav-tabs > li > a { 
     background: #367daa;
+}
+
+/* ПРОФИЛ */
+.note.note-info {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+.profile-usertitle-name {
+    color: #8ba2c0;
 }
