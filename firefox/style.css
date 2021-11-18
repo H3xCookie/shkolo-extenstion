@@ -1,7 +1,10 @@
 body{
     color: white;
 }
-
+.page-loader {
+    background-color: #363636;
+    color: #fff;
+}
 .page-content, .portlet.light{
     background-color: #363636; /* жив ли си ne тъпо*/
 }
@@ -133,6 +136,12 @@ text {
 .highcharts-menu-item {
     color: #fff;
 }
+.page-sidebar .page-sidebar-menu > li.open > a, .page-sidebar .page-sidebar-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a {
+    background: #234664;
+}
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a, .page-sidebar .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a {
+    background: #285979 !important;
+}
 /* РАЗПИСАНИЕ */
 .taken-shi{
     background-color: #546a4a  !important;
@@ -170,13 +179,15 @@ text {
 .free-hour {
     background-color: #4f4e4e  !important;
 }
+
+.tab-content.no-space {
+    background: #363636;
+}
 /* ТЕМИ */
 .table-hover > tbody > tr.green_back > td, .table-hover > tbody > tr.green_back:hover > td, .green_back * a:not(.btn), .green_back * a:not(.btn):hover,.green_back > td > a:not(.btn), .green_back > td > a:not(.btn):hover, .green_back * a:not(.btn), .green_back * a:not(.btn):hover, .green_back * a:not(.btn):focus, .green_back > td > a:not(.btn), .green_back > td > a:not(.btn):hover, .green_back > td > a:not(.btn):focus{
     background-color: #546a4a  !important;
 }
-.green-text, a:hover, .green_back * a:not(.btn), .green_back * a:not(.btn):hover, .green_back * a:not(.btn):focus, .green_back > td > a:not(.btn), .green_back > td > a:not(.btn):hover, .green_back > td > a:not(.btn):focus{
-    color: white  !important;
-}
+
 .tabs-left.nav-tabs > li > a:hover, .courseNav{
     background-color: #2b2b2b;
 }
@@ -276,4 +287,35 @@ text {
 .note-editor.note-frame .note-editing-area .note-editable {
     color: #fff;
     background-color: #363636;
+}
+
+html body.page-header-fixed.page-quick-sidebar-over-content div.page-container div.page-content-wrapper div.page-content div.row div.col-md-12 div.portlet.clearfix.messenger-index div.inbox.margin-top-10 div.row div.user-folder-threads.col-md-10.col-sm-12.col-xs-12.pull-right div.message-index-body div.threads div.messageThread.clearfix div.col-md-4.col-sm-6.col-sm-6-992-1440.message-short-body a:hover {
+    background: transparent !important;
+}
+/* ВСИЧКИ МАТЕРИАЛИ */
+.text {
+    color: #fff !important;
+}
+/* .green-text, a:hover, .green_back * a:not(.btn), .green_back * a:not(.btn):hover, .green_back * a:not(.btn):focus, .green_back > td > a:not(.btn), .green_back > td > a:not(.btn):hover, .green_back > td > a:not(.btn) {
+    background-color: #204564 !important;
+    color: white  !important;
+} */
+.page-sidebar .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a {
+    background: rgb(172, 64, 64);
+}
+.stats-ranking-table .highlight {
+    background-color: #18565b;
+}
+/* ЛОГИН */
+.login {
+    background-color: #194e71;
+}
+.tab-content {
+    background: #174a6c;
+}
+.auth-tabs.nav-tabs > li.active > a, .auth-tabs.nav-tabs > li.active > a:focus, .auth-tabs.nav-tabs > li.active > a:hover {
+    background: #2c6991;
+}
+.auth-tabs.nav.nav-tabs > li > a { 
+    background: #367daa;
 }
